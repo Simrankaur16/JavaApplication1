@@ -36,6 +36,7 @@ public class JavaApplication1 {
         System.out.print("Word in reverse: ");
         for (int i = charArray.length - 1; i >= 0; i--) {
             System.out.print(charArray[i]);
+            System.out.print("Hello world");
         }
 
         scanner.close();
